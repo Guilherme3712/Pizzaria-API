@@ -17,6 +17,23 @@ Axios
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
+## Iniciar projeto
+React
+
+npx create-react-app NameProject
+
+Server
+
+1- npm init
+
+2- npm add mysql express cors nodemon
+
+Client
+
+1- npm add axios
+
+2- npm install @mui/material @emotion/react @emotion/styled
+
 ## Como usar
 Crie pizzas no Banco de dados
 Leia pizza no Banco de dados
