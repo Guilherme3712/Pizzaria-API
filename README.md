@@ -18,21 +18,22 @@ Axios
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 ## Iniciar projeto
-React
 
-npx create-react-app NameProject
+Client
+
+-npx create vite@latest Pizza -- --template react
+
+1- npm i react-router-dom --save
+
+2- npm add axios
+
+3- npm install @mui/material @emotion/react @emotion/styled
 
 Server
 
 1- npm init
 
 2- npm add mysql express cors nodemon
-
-Client
-
-1- npm add axios
-
-2- npm install @mui/material @emotion/react @emotion/styled
 
 ## Como usar
 Crie pizzas no Banco de dados
