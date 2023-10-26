@@ -36,10 +36,15 @@ Server
 2- npm add mysql express cors nodemon
 
 ## Como usar
+
 Crie pizzas no Banco de dados
+
 Leia pizza no Banco de dados
+
 Altere pizza no Banco de dados
+
 Delete pizza no Banco de dados
+
 Click no card para editar ou deletar
 
 ## Imagens da aplicação
