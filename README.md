@@ -2,8 +2,6 @@
 
 Aplicação WEB, Pizzaria com CRUD implementado.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=whiteue)](https://www.linkedin.com/in/guilherme-alves-1402i/)
-
 ### 💻Tecnologias utilizadas
 Axios
 
@@ -70,3 +68,5 @@ Click no card para editar ou deletar
 
 ## By
 `Guilherme Alves`
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=whiteue)](https://www.linkedin.com/in/guilherme-alves-1402i/)
