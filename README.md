@@ -19,7 +19,7 @@ Axios
 
 Client
 
--npx create vite@latest Pizza -- --template react
+- npm create vite@latest Pizza -- --template react
 
 1- npm i react-router-dom --save
 
