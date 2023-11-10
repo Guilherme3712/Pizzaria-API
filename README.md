@@ -33,9 +33,9 @@ Server
 
 2- npm add mysql express cors nodemon
 
-Rodar server e/ou client
+Rodar server ou client
 
-1-npm run dev
+1- npm run dev
 
 ## Como usar
 
