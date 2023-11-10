@@ -19,19 +19,22 @@ Axios
 
 Client
 
-- npm create vite@latest Pizza -- --template react
+1- npm create vite@latest Pizza -- --template react
 
-1- npm i react-router-dom --save
+2- npm i react-router-dom --save
 
-2- npm add axios
+3- npm add axios
 
-3- npm install @mui/material @emotion/react @emotion/styled
+4- npm install @mui/material @emotion/react @emotion/styled
 
 Server
 
 1- npm init
 
 2- npm add mysql express cors nodemon
+
+- Rodar server e client
+  npm run dev
 
 ## Como usar
 
