@@ -27,6 +27,10 @@ Client
 
 4- npm install @mui/material @emotion/react @emotion/styled
 
+5- npm install yup
+
+6- npm install formik
+
 Server
 
 1- npm init
