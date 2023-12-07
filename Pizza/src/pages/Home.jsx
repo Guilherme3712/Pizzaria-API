@@ -1,5 +1,6 @@
 import Menu from "./Menu";
 import Footer from "./footer";
+import '../components/cards/cards.css';
 
 function Home(){
     return(
@@ -7,7 +8,7 @@ function Home(){
             <Menu/>
             <div className="mt-6 pt-6 w-screen flex flex-col items-center border border-black-500">
                 
-                <div className="mt-6 pt-6">
+                <div className="mt-6 pt-6 card-food">
                         <a href="#">
                             <img className="rounded-t-lg" src="https://firebasestorage.googleapis.com/v0/b/imc-digital-p-delivery.appspot.com/o/ofertas%2Fpizza_hut_tartarugas_ninjas-4x1-v1-1040x260px.png?alt=media&token=4749aae1-59a8-4fa5-a12b-46b6164dbbb0" alt="" />
                         </a>
@@ -16,30 +17,30 @@ function Home(){
                 <div className="">
                     <h2 className="m-5 p-5 text-3xl">🔥 Dá um Hut nestas ofertas!</h2>
                     <div className="flex gap-5">
-                        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div className="card-food max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img className="rounded-t-lg" src="https://firebasestorage.googleapis.com/v0/b/imc-digital-p-delivery.appspot.com/o/816x408%2FOfertas-Web%2Fweb-pizza-me%CC%81dia-512x265.jpg?alt=media&token=85de9a03-7717-4fe9-ad6c-96fd7fa250a6" alt="" />
                             </a>
                         </div>
                 
-                        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div className="card-food max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img className="rounded-t-lg" src="https://firebasestorage.googleapis.com/v0/b/imc-digital-p-delivery.appspot.com/o/816x408%2FOfertas-Web%2Fweb-cardapio-media-D1H-TIERA-512x256.jpg?alt=media&token=2b9a6a0b-427e-4cbe-9a57-46247673ae7f" alt="" />
                             </a>
                         </div>
-                        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div className="card-food max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img className="rounded-t-lg" src="https://firebasestorage.googleapis.com/v0/b/imc-digital-p-delivery.appspot.com/o/816x408%2FOfertas-Web%2Fweb-cardapio-media-HUTBOX-512x256.jpg?alt=media&token=904f0f7b-0d3c-4b74-b48d-b286d2843378" alt="" />
                             </a>
                         </div>
                     </div>
-                    <h2 className="m-5 p-5">Tá na mão as mais recomendadas</h2>
+                    <h1 className="text-2xl m-5 p-5">Tá na mão as mais recomendadas</h1>
 
                     <h2 className="m-5 text-3xl">🍕 Pizzas</h2>
 
                     <div className="flex gap-5">
                         
-                        <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div className="card-food max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img className="rounded-t-lg" src="https://firebasestorage.googleapis.com/v0/b/imc-digital-p-delivery.appspot.com/o/816x408%2FPizzas%2Fpepperoni-v1.jpg?alt=media&token=33fa61dd-636c-4924-a9e6-407bd16966ac" alt="" />
                             </a>
@@ -54,7 +55,7 @@ function Home(){
                             </a>
                         </div>
 
-                        <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div className="card-food max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img className="rounded-t-lg" src="https://firebasestorage.googleapis.com/v0/b/imc-digital-p-delivery.appspot.com/o/816x408%2FPizzas%2Ffrango-e-requeijao-v1.jpg?alt=media&token=dde66ed4-4d4e-45f7-bcf9-1f77b249e242" alt="" />
                             </a>
@@ -69,7 +70,7 @@ function Home(){
                             </a>
                         </div>
 
-                        <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div className="card-food max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img className="rounded-t-lg" src="https://storage.googleapis.com/imc-digital-p-delivery.appspot.com/816x408/Pizzas/brasileira.jpg" alt="" />
                             </a>
@@ -91,7 +92,7 @@ function Home(){
 
                     <div className="flex gap-5">
                         
-                        <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div className="card-food max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img className="rounded-t-lg" src="https://storage.googleapis.com/imc-digital-p-delivery.appspot.com/816x408/Sobremesas/hut-cup-brigadeiro.jpg" alt="" />
                             </a>
@@ -106,7 +107,7 @@ function Home(){
                             </a>
                         </div>
 
-                        <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div className="card-food max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img className="rounded-t-lg" src="https://storage.googleapis.com/imc-digital-p-delivery.appspot.com/816x408/Sobremesas/brigadeiro-media.jpg" alt="" />
                             </a>
@@ -121,7 +122,7 @@ function Home(){
                             </a>
                         </div>
 
-                        <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div className="card-food max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img className="rounded-t-lg" src="https://storage.googleapis.com/imc-digital-p-delivery.appspot.com/816x408/Sobremesas/brigadeiro-slider.jpg" alt="" />
                             </a>

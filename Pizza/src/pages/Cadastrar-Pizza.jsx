@@ -15,21 +15,32 @@ function CadastrarPizza(){
     }));
     };
 
-    const handleClickButtonP = () => {
-        Axios.post("http://localhost:3001/register-pizza", {
-            ds_sabor: values.saborInput,
-            ds_detalhes: values.detalhesInput,
-            ds_preco: values.precoInput,
-            ds_img: values.imgInput,
-        }).then((response) => {
-            console.log(response);
-        });
-        document.location.reload()
+    const getPizzas = async () => {
+        try {
+            const res = await Axios.get("http://localhost:3001/getCards-pizza");
+            setListPizzas(res.data);
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
+    const handleClickButtonP = async () => {
+        try {
+            await Axios.post("http://localhost:3001/register-pizza", {
+                ds_sabor: values.saborInput,
+                ds_detalhes: values.detalhesInput,
+                ds_preco: values.precoInput,
+                ds_img: values.imgInput,
+            }).then(() => {
+                document.location.reload()
+            });
+        } catch (error) {
+            console.log(error)
+        }
     };
+
     useEffect(() => {
-        Axios.get("http://localhost:3001/getCards-pizza").then((response) => {
-            setListPizzas(response.data);
-        });
+        getPizzas();
     }, []);
 
     return(
